@@ -14,17 +14,24 @@ $(function () {
         $(this).toggleClass('on');
     });
 
-    $('.header .ham_btn').on('click', function () {
-        $('.gnb').toggleClass('on');
-    });
+    // $('.header .ham_btn').on('click', function () {
+    //     $('.gnb').toggleClass('on');
+    // });
 
-    $('.header .gnb>ul>li>span').on('click', function (e) {
-        e.preventDefault();
-
-        let idx = $(this).index();
-        $(this).parent().eq(idx).addClass('on')
-            .siblings().removeClass('on');
-    })
+    // $('.gnb>ul>li').on('click', function (e) {
+    //     if ($('.gnb').hasClass('on')) {
+    //         e.preventDefault();
+    //         $(this)
+    //             .next()
+    //             .stop()
+    //             .slideToggle()
+    //             .parent()
+    //             .siblings()
+    //             .find('.sub_box')
+    //             .stop()
+    //             .slideUp();
+    //     }
+    // })
 
     $('.main_slide').on('init afterChange', function (e, s, c) {
         const current = $('.main_slide .slick-current');
