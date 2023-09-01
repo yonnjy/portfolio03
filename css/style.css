@@ -1647,7 +1647,7 @@
     .footer .site ul {
         visibility: hidden;
         position: absolute;
-        bottom: 45px;
+        bottom: 38px;
         left: 0;
         transform: translate(0, 0);
         color: #000;
