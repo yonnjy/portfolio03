@@ -1177,7 +1177,7 @@
     flex: 1;
     overflow: hidden;
     touch-action: none;
-    padding: 120px 0;
+    padding: 120px 0 0 0;
     margin-left: 248px;
     color: #fff;
 }
