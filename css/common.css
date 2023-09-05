@@ -41,14 +41,14 @@ body {
 }
 
 ._sec .tit {
-    text-align: center;
     max-width: 1440px;
-    margin: 0 auto 40px auto;
+    margin: 0 0 40px 0;
 }
 
 ._sec .tit h2 {
     font-size: 32px;
     font-weight: 800;
+    margin: 0 0 12px 0;
 }
 
 .bg {
